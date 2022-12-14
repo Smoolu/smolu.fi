@@ -1,0 +1,17 @@
+body {
+    
+    color: rgb(240, 240, 240);
+    backdrop-filter: blur(6px);
+    background: #0F2027;
+    background: linear-gradient(to right, #777777, #474747, #1b1b1b); 
+
+    
+  }
+h1 {
+    font-family: monospace, monospace ;
+    background: linear-gradient(to right, #000000, #6e6e6e, #000000); 
+    
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+    
+}
