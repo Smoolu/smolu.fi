@@ -1,14 +1,18 @@
 body,html {
-  color: rgb(240, 240, 240);
+  color: rgb(255, 255, 255);
   font-family: monospace, monospace ;
-  background: linear-gradient(to right, #777777, #474747, #1b1b1b);
   margin: 0;
-  background-position: center;
+
   height: 100%;
   width: 100%;
+  background-image: url("/src/img/background.jpg");
+  background-attachment: fixed; 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-nav {
+header {
   box-sizing: border-box;
   height: 250px;
   background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 39%); 
@@ -16,22 +20,26 @@ nav {
   text-shadow: 1px 1px 5px black;
   
 }
-.navlogo{
+.logo{
   float: left;
-   margin: 10px;
+  margin: 10px;
    
 }
-.center{
-    position: fixed;
-    left: 50%;
+.text{
+  background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  height:500px;
+  font-size:20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
+
 .button{
-  padding: 50px 50px;
+  font-family: monospace,monospace;
+  text-decoration: none;
   border-width: 2px;
+  font-size: 20;
 }
-
-
-
 .parallax {
   /* The image used */
   background-image: url("/src/img/background.jpg");
@@ -44,6 +52,8 @@ nav {
   background-size: cover;
 
 }
-
+a:hover{
+  color: red;
+}
 /*
 violet: 8B3C7F, 139,60,127
