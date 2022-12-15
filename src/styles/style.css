@@ -6,6 +6,7 @@ body,html {
   background-image: url("/src/img/background.jpg");
   background-position: center;
   height: 100%;
+  width: 100%;
 }
 
 nav {
