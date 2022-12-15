@@ -1,1 +1,3 @@
-countincr()
+fucking(
+    return0
+)

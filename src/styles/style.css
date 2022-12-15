@@ -1,26 +1,49 @@
+body,html {
+  color: rgb(240, 240, 240);
+  font-family: monospace, monospace ;
+  background: linear-gradient(to right, #777777, #474747, #1b1b1b);
+  margin: 0;
+  background-image: url("/src/img/background.jpg");
+  background-position: center;
+  height: 100%;
+}
 
-body {
-    color: rgb(240, 240, 240);
-    font-family: monospace, monospace ;
-    background: #0F2027;
-    background: linear-gradient(to right, #777777, #474747, #1b1b1b); 
-    margin: 0;
-    
-    
-    
-  }
-h1 {
-    margin: 0;
-    background: linear-gradient(to right, #000000, #6e6e6e, #000000); 
-    text-align: center;
-    text-shadow: 1px 1px 5px black;
-    
+nav {
+  box-sizing: border-box;
+  height: 250px;
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 39%); 
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+  
+}
+.navlogo{
+  float: left;
+   margin: 10px;
+   
 }
 .center{
     position: fixed;
     left: 50%;
 }
-.button-style{
+.button{
   padding: 50px 50px;
   border-width: 2px;
 }
+
+
+
+.parallax {
+  /* The image used */
+  background-image: url("/src/img/background.jpg");
+  /* Set a specific height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/*
+violet: 8B3C7F, 139,60,127
