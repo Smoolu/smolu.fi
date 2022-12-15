@@ -3,7 +3,6 @@ body,html {
   font-family: monospace, monospace ;
   background: linear-gradient(to right, #777777, #474747, #1b1b1b);
   margin: 0;
-  background-image: url("/src/img/background.jpg");
   background-position: center;
   height: 100%;
   width: 100%;
